@@ -1,5 +1,10 @@
 A major mode for editing [Newspeak](http://newspeaklanguage.org/) in Emacs.
 
+My aim is to write something that highlights only what's important. Right now, my thinking is that you're interested in the coupling between things:
+* types imported into your namespace
+* implicit sends of these types
+* variables passed into (or declared in) methods
+
 Eventually I aim to provide a SLIME-like interface to a running Newspeak image. Baby steps for now...
 
 Licence

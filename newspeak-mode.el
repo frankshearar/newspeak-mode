@@ -3,7 +3,7 @@
 (defvar newspeak-mode-syntax-table
   (let ((table (copy-syntax-table (standard-syntax-table))))
     (modify-syntax-entry ?\( "()1" table)
-    (modify-syntax-entry ?\* ".23" table)
+    (modify-syntax-entry ?\* ". 23" table)
     (modify-syntax-entry ?\) ")(.4" table)
     (modify-syntax-entry ?\" "!b" table)     ; "" style comment
     (modify-syntax-entry ?\{ "(}  " table)
